@@ -2,7 +2,7 @@
 import csv
 
 # Read file.
-with open('day2/aoc_day2.csv') as f:
+with open('day2/aoc_day2_sample.csv') as f:
 	reader = csv.reader(f, delimiter=' ')
 	reports = [row for row in reader]
 
