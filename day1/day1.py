@@ -2,7 +2,8 @@ import pandas as pd
 from collections import Counter
 
 # Read file.
-df = pd.read_csv('aoc_day1.csv', delim_whitespace=True, header=None)
+df = pd.read_csv('day1/aoc_day1.csv', delim_whitespace=True, header=None)
+
 list1 = df[0].to_list()
 list2 = df[1].to_list()
 
