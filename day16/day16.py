@@ -3,7 +3,6 @@
 import numpy as np
 from collections import deque
 import time
-#import copy
 import tqdm
 
 PART = 2
